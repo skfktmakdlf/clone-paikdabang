@@ -1,0 +1,10 @@
+# images와 하위 모든 파일 제외
+!images/
+
+# 파일 제외
+*.psd
+*.ai
+*.jpg
+*.images
+*.png
+*.zip
