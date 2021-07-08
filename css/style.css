@@ -1,1 +1,12 @@
 @charset "utf-8";
+
+#slogan {
+    background: url("../images/main_sec1.jpg") center / cover;
+}
+.slogan-wrap {
+    max-width: 1150px;
+    margin:0 auto;
+}
+#slogan h3 {
+    font-size: 19px;
+}

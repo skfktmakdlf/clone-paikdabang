@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>클론코딩 -  빽다방</title>
+    <title>클론코딩 - 빽다방</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <script src="//code.jquery.com/jquery-3.6.0"></script>
+    <script src="script/jquery-3.6.0.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="script/bootstrap.bundle.min.js"></script>
-    <link rel="alternate" href="css/style.css" type="" title="">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div id="header">
         <div class="header-wrap">
@@ -19,11 +21,11 @@
                     <li><a href="#">더본코리아</a></li>
                     <li><a href="#">매장찾기</a></li>
                     <li><a href="#">
-                        <img src="images/facebook.jpg" alt="페이스북">
-                    </a></li>
+                            <img src="images/facebook.jpg" alt="페이스북">
+                        </a></li>
                     <li><a href="#">
-                        <img src="images/instar.jpg" alt="인스타">
-                    </a></li>
+                            <img src="images/instar.jpg" alt="인스타">
+                        </a></li>
                 </ul>
             </div>
             <div class="header-bottom">
@@ -47,8 +49,46 @@
         </div>
     </div>
     <div id="slider">
-
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/main_릴렉싱허니셔벗2종.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/main_수박3종.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/main_공공치빵.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+    </div>
+    <div id="slogan">
+        <div class="slogan-wrap">
+            <h3>The Finest Quality Coffee Plants</h3>
+            <h2>PAIK’S COFFEE STORY</h2>
+            <h3>균형잡힌 바디감으로 긴여운을 남기는 빽다방 커피를 만나보세요.</h3>
+        </div>
     </div>
     <script src="script/main.js"></script>
 </body>
+
 </html>
