@@ -1,5 +1,16 @@
 @charset "utf-8";
-
+body  {
+    font:16px/1.5 "Nanum Gothic", sans-serif;
+    color:#333;
+    box-sizing: border-box;
+}
+a, a:link {
+    text-decoration: none;
+    color: inherit;
+}
+ul li {
+    float: left;
+}
 #slogan {
     background: url("../images/main_sec1.jpg") center / cover;
 }
@@ -9,4 +20,12 @@
 }
 #slogan h3 {
     font-size: 19px;
+}
+.container-wrap1 {
+    background: url(../images/main_sec2.jpg) center / cover;
+    text-transform: uppercase;
+}
+.container-wrap2 {
+    background: url(../images/main_sec3.jpg) center / cover;
+    text-transform: uppercase;
 }
